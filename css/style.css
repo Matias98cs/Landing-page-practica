@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 4em;
+    border: 35px solid #FBF4F0;
+}
+
+.section-col-1 {
+    height: 100%;
+}
+
+.section-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10em 30em;
+    padding-left: 2em;
+}
+
+.section-conteiner-title {
+    padding-top: 3em;
+}
+
+.section-conteiner-title h1 {
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.section-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.section-parrafo {
+    padding-top: 1.5em;
+}
+
+.section-title p {
+    font-size: 4em;
+}
+
+.p-text {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-parrafo {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: gray;
+}
+
+.section-btn {
+    padding-top: 2em;
+}
+
+.section-btn button {
+    border: none;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 30px;
+    background-color: #DB8B8D;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.section-col-2 {
+    background: url('../img/London+beverage+photographer+Holly+Pickering.jpg');
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 20em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section-buttons {
+    display: flex;
+    padding-top: 3em;
+    padding-right: 3em;
+    justify-content: flex-end;
+}
+
+.section-color {
+    display: grid;
+    grid-template-columns: 4em 4em 4em 6em;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-color a {
+    text-decoration: none;
+    color: #403E3E;
+    font-weight: bold;
+    font-size: 1em;
+}
